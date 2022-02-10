@@ -2,6 +2,9 @@ module.exports = {
   content: ["./public/index.html"],
   theme: {
     extend: {
+      fontFamily: {
+        body: ['Sacramento']
+      },
       colors: {
         primary: '#FF6363',
         secondary: {
